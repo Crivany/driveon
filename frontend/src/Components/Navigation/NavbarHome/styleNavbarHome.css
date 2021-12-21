@@ -1,0 +1,44 @@
+/* Estilos componente NavbarHome */
+.cont{
+    color: #3C3C3B;
+    font-family: 'Oswald';
+    font-size: 25px;
+    padding-top: 20px;
+}
+    .cont-navbarHome{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .img-navbarHome-logo{
+
+        }
+        .cont-navbarHome-section{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+            .li-navbarHome{
+                position: relative;
+                list-style: none;
+            }
+                .link-navbarHome{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+                .link-navbarHome::before{
+                    content: "";
+                    height: 3px;
+                    width: 0%;
+                    background-color: #AFCA0B;
+                    position: absolute;
+                    left: 0;
+                    bottom: -10px;
+                    transition: 0.4s ease-out;
+                }
+                .link-navbarHome:hover::before{
+                    width: 100%;
+                }

@@ -1,0 +1,65 @@
+/* Estilos componente login */
+.cont-login{
+    width: 450px;
+    border: 2px solid #3C3C3B;
+    border-radius: 7px;
+    padding: 25px;
+    margin: 50px auto;
+}
+    .title-login{
+        font-family: 'Oswald';
+        text-align: center;
+    }
+    .cont-redes{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .btn-login-redes{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 20px auto 0;
+        position: initial;
+        border-radius: 4px;
+        width: max-content;
+        padding: 0 10px;
+        font-family: 'Poppins';
+        font-size: 14px;
+    }
+        .facebook:hover{
+            background-color: #3B5998;
+            color: #FFF;
+            border: none;
+        }
+    .from-login{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }  
+        .label-login {
+            font-size: 18px;
+            font-family: 'Montserrat';
+        }
+        .input-login {
+            padding: 10px;
+            height: 25x;
+            font-family: 'Poppins';
+        }
+        .link-login{
+            margin-top: 7px;
+            font-family: 'Poppins';
+            font-size: 14px;
+        }
+        .btn-login{
+        margin: 20px auto 0;
+        position: initial;
+        border-radius: 4px;
+        width: max-content;
+        padding: 0 10px;
+        font-family: 'Poppins';
+        font-size: 16px;
+        }
+        .reg{
+            text-align: center;
+        }

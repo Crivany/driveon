@@ -1,0 +1,50 @@
+/* Estilos componente terms */
+.cont-terms-contend{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+    .title-terms{
+        margin: 20px 0;
+        font-family: 'Oswald';
+    }
+    .title-terms-title{
+        margin: 15px 0;
+        font-family: 'Montserrat';
+    }
+    .text-terms{
+        margin: 10px 0 15px 0;
+        font-family: 'Poppins';
+    }
+    .ul-terms{
+        margin: 0 0 0 20px;
+    }
+        .list-terms{
+            margin-bottom: 10px;
+        }
+        .link-terms{
+            color: #000;
+            text-decoration-line: underline;
+        }
+        .final{
+            margin-bottom: 40px;
+        }
+
+@media (max-width: 270px){
+    .title-terms{
+        font-size: 20px;
+        word-wrap: break-word;
+    }
+    .title-terms-title{
+        font-size: 16px;
+        word-wrap: break-word;
+    }
+    .text-terms{
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+    .ul-terms{
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+}

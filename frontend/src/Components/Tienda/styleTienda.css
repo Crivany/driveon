@@ -1,0 +1,17 @@
+/* Estilos Componente Tienda */
+.cont-tienda{
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    gap: 20px;
+}
+    .cont-filtros{
+        width: 25vw;
+    }
+    .cont-products{
+        width: 65vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
