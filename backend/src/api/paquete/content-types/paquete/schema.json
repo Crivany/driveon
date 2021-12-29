@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paquetes",
+  "info": {
+    "singularName": "paquete",
+    "pluralName": "paquetes",
+    "displayName": "Paquetes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tipo": {
+      "type": "enumeration",
+      "enum": [
+        "Teorico",
+        "Practico"
+      ],
+      "required": true
+    },
+    "Precio": {
+      "type": "decimal"
+    },
+    "Beneficios": {
+      "type": "json",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "examen": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "permisos",
+  "info": {
+    "singularName": "permiso",
+    "pluralName": "permisos",
+    "displayName": "Permiso"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Precio": {
+      "type": "decimal"
+    },
+    "Beneficios": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

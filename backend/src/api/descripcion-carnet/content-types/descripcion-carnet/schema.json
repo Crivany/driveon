@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "descripcion_carnets",
+  "info": {
+    "singularName": "descripcion-carnet",
+    "pluralName": "descripcion-carnets",
+    "displayName": "Descripcion Carnet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CarnetA1": {
+      "type": "richtext"
+    },
+    "CarnetA2": {
+      "type": "richtext"
+    },
+    "CarnetA": {
+      "type": "richtext"
+    }
+  }
+}
