@@ -22,6 +22,7 @@ import Profesores from "../Components/Profesores/Profesores";
 import { sesion } from "../redux/actions/sessionAction";
 import RutaPrivada from "./rutaPrivada";
 import Dashboard from "../Containers/Dashboard/pages/Dashboard";
+import { getCarnetDescription, getPaq, getPermiso } from "../redux/actions/apiAction";
 
 
 const Routes = ()=> {
@@ -32,6 +33,9 @@ const Routes = ()=> {
 
     useEffect(() => {
         dispatch(sesion(JSON.parse(localStorage.getItem('sesion'))))
+        getPaq()
+        getCarnetDescription()
+        getPermiso()
     }, [])
 
     useEffect(() => {

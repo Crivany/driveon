@@ -12,9 +12,11 @@ import HomeComponent from "../../Components/HomeComponent/HomeComponent";
 
 const Home = ({isAuth})=> {
     return (
-        <>
+        <>  
             <NavbarHome isAuth={isAuth} />
-            <Inicio />
+            <div className="cont-background">
+                <Inicio />
+            </div>
             <Cursos />
             <HomeComponent />
             <Footer/>

@@ -22,3 +22,10 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+.cont-background {
+    background-image: url('https://res.cloudinary.com/dpkaiokho/image/upload/v1640793407/DRIVE_ON_PROPUESTA_4_rxd26r.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
