@@ -21,8 +21,10 @@ import Aviso from '../Components/terms/Aviso';
 import Profesores from "../Components/Profesores/Profesores";
 import { sesion } from "../redux/actions/sessionAction";
 import RutaPrivada from "./rutaPrivada";
-import Dashboard from "../Containers/Dashboard/pages/Dashboard";
 import { getCarnetDescription, getPaq, getPermiso } from "../redux/actions/apiAction";
+import HomeP from "../Containers/Dashboard2/pages/HomeP";
+import Products from '../Containers/Dashboard2/pages/Products'
+
 
 
 const Routes = ()=> {
@@ -81,7 +83,8 @@ const Routes = ()=> {
                     <Route path="/login" element={<RutaPublica isAuth={isAuth}><Login /></RutaPublica>} />
                     <Route path="/registro" element={<RutaPublica isAuth={isAuth}><Registro /></RutaPublica>} />
                     {/* Rutas privadas que se puede entrar solo si se matriculo o inicio sesión */}
-                    <Route path="/dashboard" element={<RutaPrivada isAuth={isAuth}><Dashboard /></RutaPrivada>} />
+                    <Route path="/dashboard" element={<RutaPrivada isAuth={isAuth}><HomeP /></RutaPrivada>} />
+                    <Route path="/products" element={<RutaPrivada isAuth={isAuth}><Products /></RutaPrivada>} />
                     {/* Redireccionamiento cuando busquen una ruto que no exista */}
                     <Route path="*" element={<Navigate replace to ="/" />}/>
                 </Switch>
