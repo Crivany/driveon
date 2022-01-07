@@ -9,8 +9,8 @@ function Products() {
   return (
     <>
     <Navbar />
-    <div className='products'>
-      <h1>Products</h1>
+    <div className='profile'>
+      
     </div>
     </>
   );

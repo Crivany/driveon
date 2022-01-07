@@ -24,6 +24,8 @@ import RutaPrivada from "./rutaPrivada";
 import { getCarnetDescription, getPaq, getPermiso } from "../redux/actions/apiAction";
 import HomeP from "../Containers/Dashboard2/pages/HomeP";
 import Products from '../Containers/Dashboard2/pages/Products'
+import Reports from "../Containers/Dashboard2/pages/Reports";
+import Profile from "../Containers/Dashboard2/pages/Profile";
 
 
 
@@ -83,8 +85,10 @@ const Routes = ()=> {
                     <Route path="/login" element={<RutaPublica isAuth={isAuth}><Login /></RutaPublica>} />
                     <Route path="/registro" element={<RutaPublica isAuth={isAuth}><Registro /></RutaPublica>} />
                     {/* Rutas privadas que se puede entrar solo si se matriculo o inicio sesión */}
-                    <Route path="/dashboard" element={<RutaPrivada isAuth={isAuth}><HomeP /></RutaPrivada>} />
-                    <Route path="/products" element={<RutaPrivada isAuth={isAuth}><Products /></RutaPrivada>} />
+                    <Route path="/auth/dashboard" element={<RutaPrivada isAuth={isAuth}><HomeP /></RutaPrivada>} />
+                    <Route path="/auth/products" element={<RutaPrivada isAuth={isAuth}><Products /></RutaPrivada>} />
+                    <Route path="/auth/reports" element={<RutaPrivada isAuth={isAuth}><Reports /></RutaPrivada>} />
+                    <Route path="/auth/profile" element={<RutaPrivada isAuth={isAuth}><Profile /></RutaPrivada>} />
                     {/* Redireccionamiento cuando busquen una ruto que no exista */}
                     <Route path="*" element={<Navigate replace to ="/" />}/>
                 </Switch>

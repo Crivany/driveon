@@ -1,33 +1,14 @@
 /* Estilos componente Inicio */
 .cont-inicio{
     width: 60vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     text-align: center;
     color: #3C3C3B;
     margin: 0 auto 0 auto;
 }
-    .title-inicio{
-        font-size: 45px;
-        font-family: 'Oswald';
-    }
-    .text-inicio{
-        font-size: 22px;
-        font-family: 'Montserrat';
-    }
-    .cont-inicio-gadwed{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        width: max-content;
-        padding: 20px 30px;
-        margin-top: 50px;
-        border: 2px solid #AFCA0B;
-        border-radius: 10px;
-    }
-        .title-inicio-gad{
-            font-family: 'Oswald';
-            font-size: 30px;
-        }
         .btn-inicio{
             display: inline-block;
             width: max-content;

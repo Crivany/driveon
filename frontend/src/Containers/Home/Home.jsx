@@ -15,7 +15,7 @@ const Home = ({isAuth})=> {
         <>  
             <NavbarHome isAuth={isAuth} />
             <div className="cont-background">
-                <Inicio />
+            <Inicio />
             </div>
             <Cursos />
             <HomeComponent />

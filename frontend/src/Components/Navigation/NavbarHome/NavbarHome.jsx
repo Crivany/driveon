@@ -34,10 +34,7 @@ const NavbarHome = ()=> {
                         <Link to="/blog" className="link-navbarHome">Blog</Link>
                     </li>
                     <li className="li-navbarHome">
-                        <Link to="/registro" className="link-navbarHome">Registarse</Link>
-                    </li>
-                    <li className="li-navbarHome">
-                        <Link to="/login" className="link-navbarHome">Iniciar Sesión <AccountCircleOutlined sx={{color: "#3C3C3B", fontSize: "30px"}} /></Link>
+                        <Link to="/login" className="link-navbarHome">Aula <AccountCircleOutlined sx={{color: "#3C3C3B", fontSize: "30px"}} /></Link>
                     </li>
                 </ul>
             </div>

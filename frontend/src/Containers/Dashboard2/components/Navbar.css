@@ -2,7 +2,7 @@
   background-color: grey;
   height: 80px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -69,4 +69,10 @@
 
 span {
   margin-left: 16px;
+}
+
+.img{
+  border-radius: 100%;
+  width: 60px;
+  margin-right: 20px;
 }
