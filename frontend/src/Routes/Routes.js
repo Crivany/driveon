@@ -56,7 +56,7 @@ const Routes = ()=> {
 
     useEffect(() => {
         //Google Analytics
-        ReactGa.initialize('UA-213822087-1')
+        ReactGa.initialize('UA-213821478-1')
         ReactGa.pageview(window.location.pathname + window.location.search)
 
         //Google Tag Manager
